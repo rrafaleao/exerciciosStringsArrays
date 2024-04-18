@@ -2,15 +2,10 @@
 using namespace std;
 
 int main(){
-    string a = "a";
-    string e = "e";
-    string i = "i";
-    string o = "o";
-    string u = "u";
-
-    cout <<" " << a << endl;
-    cout <<" " << e << endl;
-    cout <<" " << i << endl;
-    cout <<" " << o << endl;
-    cout <<" " << u << endl;
+   string vogais[5] = {"a","e","i","o","u"};
+    cout <<" " << vogais[0] << endl;
+    cout <<" " << vogais[1] << endl;
+    cout <<" " << vogais[2] << endl;
+    cout <<" " << vogais[3] << endl;
+    cout <<" " << vogais[4] << endl;
 }

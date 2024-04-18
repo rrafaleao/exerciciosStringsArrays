@@ -9,6 +9,6 @@ int main(){
     frutas[3] = "Uva";
     frutas[4] = "Kiwi";
 
-    cout <<"A fruta na terceira posição é: " << frutas[2] << endl;
+    cout <<"A terceira fruta é: " << frutas[2] << endl;
 return 0;
 }
