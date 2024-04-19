@@ -29,7 +29,7 @@ int main(){
     if(num == 7){
         cout <<""<< (dias[6]) << endl;
     }
-    if((num >= 7)||(num < 0)){
+    if((num > 7)||(num < 0)){
         cout <<"ERRO! Digite um número válido." << endl;
 }
 }

@@ -2,10 +2,10 @@
 using namespace std;
 
 int main(){
-    string frase[20];
+    string frase1;
     cout <<"Digite uma frase: " << endl;
-    cin >> frase;
+    getline(cin, frase1);
 
-    cout <<"" << frase << endl;
-    return 0;
+    cout<< frase1 << endl;
+
 }
