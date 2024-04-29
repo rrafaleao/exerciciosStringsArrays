@@ -1,11 +1,13 @@
 #include <iostream> 
+#include <cstring>
 using namespace std;
 
 int main(){
-    string frase1;
+    char frase[20];
     cout <<"Digite uma frase: " << endl;
-    getline(cin, frase1);
+    cin.ignore();
+    cin.getline(frase, 20);
 
-    cout<< frase1 << endl;
+    cout<< frase << endl;
 
 }
