@@ -6,7 +6,7 @@ int main(){
     cout <<"Digite uma letra: " << endl;
     cin >> letra;
 
-    if(letra == "a" || "e" || "i" || "o" || "u"){
+    if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"){
         cout<<"Sua letra é uma vogal." << endl;
     }else{
         cout<<"Sua letra é uma consoante" << endl;
